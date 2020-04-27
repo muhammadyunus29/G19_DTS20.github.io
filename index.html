@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>G-19 DTS</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+	<link href="css/flexslider.css" rel="stylesheet">
+	<link href="css/templatemo-style.css" rel="stylesheet">
+	
+	<style>
+		.header-logo {
+			height: 50px;
+		}
+
+		.our-team {
+		padding: 30px 0 40px;
+		margin-bottom: 30px;
+		background-color: white;
+		text-align: center;
+		overflow: hidden;
+		position: relative;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.our-team .picture {
+		display: inline-block;
+		height: 130px;
+		width: 130px;
+		margin-bottom: 50px;
+		z-index: 1;
+		position: relative;
+		}
+
+		.our-team .picture::before {
+		content: "";
+		width: 100%;
+		height: 0;
+		border-radius: 50%;
+		background-color: rgba(34, 49, 52, 1.0);
+		position: absolute;
+		bottom: 135%;
+		right: 0;
+		left: 0;
+		opacity: 0.9;
+		transform: scale(3);
+		transition: all 0.3s linear 0s;
+		}
+
+		.our-team:hover .picture::before {
+		height: 100%;
+		}
+
+		.our-team .picture::after {
+		content: "";
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background-color: rgba(34, 49, 52, 1.0);
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		}
+
+		.our-team .picture img {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+		transform: scale(1);
+		transition: all 0.9s ease 0s;
+		}
+
+		.our-team:hover .picture img {
+		box-shadow: 0 0 0 14px #f7f5ec;
+		transform: scale(0.7);
+		}
+
+		.our-team .title {
+		display: block;
+		font-size: 15px;
+		color: #4e5052;
+		text-transform: capitalize;
+		}
+
+		.our-team .social {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		background-color: rgba(34, 49, 52, 1.0);
+		position: absolute;
+		bottom: -100px;
+		left: 0;
+		transition: all 0.5s ease 0s;
+		}
+
+		.our-team:hover .social {
+		bottom: 0;
+		}
+
+		.our-team .social li {
+		display: inline-block;
+		}
+
+		.our-team .social li a {
+		display: block;
+		padding: 10px;
+		font-size: 17px;
+		color: white;
+		transition: all 0.3s ease 0s;
+		text-decoration: none;
+		}
+
+		.our-team .social li a:hover {
+		color: rgba(34, 49, 52, 1.0);;
+		background-color: #f7f5ec;
+		}
+	</style>
+</head>
+<body class="tm-gray-bg">
+  	<!-- Header -->
+  	<div class="tm-header">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+  					<img src="img/logo.png" alt="" srcset="" class="header-logo">	
+  				</div>
+	  			<div class="col-lg-6 col-md-8 col-sm-9">
+	  				<div class="mobile-menu-icon">
+		              	<i class="fa fa-bars"></i>
+		            </div>
+	  				<nav class="tm-nav">
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#profile">Tim Profile</a></li>
+							<li><a href="#quotes">Quotes</a></li>
+						</ul>
+					</nav>		
+	  			</div>				
+  			</div>
+  		</div>	  	
+  	</div>
+	
+	<!-- Banner -->
+	<section class="tm-banner" id="home">
+		<!-- Flexslider -->
+		<div class="flexslider flexslider-banner">
+		  	<ul class="slides">
+		    	<li>
+			    	<div class="tm-banner-inner">
+						<h1 class="tm-banner-title">G-19 Project DTS</h1>
+						<p class="tm-banner-subtitle">Welcome To Our Website</p>
+						<a href="#about	" class="tm-banner-link">Get Started</a>	
+					</div>
+		      		<img src="img/banner-1.jpg" />
+		    	</li>
+		  	</ul>
+		</div>		
+	</section>
+
+	<!-- gray bg -->	
+	<section class="container tm-home-section-1" id="about">
+		<div class="row">
+			<!-- slider -->
+			<div class="flexslider flexslider-about effect2">
+			  	<ul class="slides">
+			    	<li>
+						<img src="img/about-1.jpg" alt="image" />
+						<div class="flex-caption">
+							<h2 class="slider-title">Digital Talent Scholarship</h2>
+							<h3 class="slider-subtitle">Online Academy (OA)</h3>
+							<p class="slider-description">Online Academy (OA) Program merupakan program beasiswa pelatihan dan sertifikasi ditujukan kepada 10.000 peserta terpilih yang ingin meningkatkan keterampilan di bidang IT. Program Online Academy merupakan kerjasama Kementerian Komunikasi dan Informatika dengan Global Techology Company. 
+							Materi Pelatihan dalam Online Academy disusun oleh Global Technology Company yang bertujuan untuk memenuhi kebutuhan sumber daya manusia di bidang IT dan meningkatkan kompetensi sumber daya manusia Indonesia yang memiliki keahlian di bidang profesi masing-masing untuk memperoleh kompetensi tambahan serta menciptakan sumber daya manusia yang lebih adaptif dan produktif dengan mengoptimalisasi teknologi, Online Academy juga bertujuan untuk meningkatkan kualitas sumber daya manusia di bidang IT demi memenangkan persaingan global.</p>
+							<div class="slider-social">
+								<a href="https://twitter.com/DTS_kominfo?s=08" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+								<a href="https://instagram.com/digitalent.kominfo?igshid=1qjwp7hv94utu" class="tm-social-icon"><i class="fa fa-instagram"></i></a>
+			      			</div>
+			      		</div>			      
+			   		</li>
+			  	</ul>
+			</div>
+		</div>
+	
+		<div class="section-margin-top about-section" id="profile">
+			<div class="row">				
+				<div class="tm-section-header">
+					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Who We Are</h2></div>
+					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+				</div>
+			</div>			
+			<div class="container">
+				<div class="row">
+				  	<div class="col-12 col-sm-6 col-md-4 col-lg-12">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="img/profile-1.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Muhammad Yunus Syafaruddin</h3>
+								<h4 class="title">Extra 1 Developer - Tim Leader</h4>
+							</div>
+							<ul class="social">
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-instagram" aria-hidden="true"></a></li>
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<div class="our-team">
+					  		<div class="picture">
+								<img class="img-fluid" src="img/profile-2.jpg">
+					  		</div>
+					  		<div class="team-content">
+								<h3 class="name">M Ihsanuddienullah</h3>
+								<h4 class="title">Extra 2 Developer</h4>
+					  		</div>
+							<ul class="social">
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-instagram" aria-hidden="true"></a></li>
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+							</ul>
+						</div>
+				  	</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="img/profile-3.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Yusuf Satria</h3>
+								<h4 class="title">Main Developer</h4>
+							</div>
+							<ul class="social">
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-instagram" aria-hidden="true"></a></li>
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<div class="our-team">
+					  		<div class="picture">
+								<img class="img-fluid" src="img/profile-4.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Muhammad Husyam</h3>
+								<h4 class="title">Header Developer</h4>
+							</div>
+							<ul class="social">
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-instagram" aria-hidden="true"></a></li>
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+							</ul>
+						</div>
+					</div>
+				  	<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<div class="our-team">
+					  		<div class="picture">
+								<img class="img-fluid" src="img/profile-5.jpg">
+					  		</div>
+					  		<div class="team-content">
+								<h3 class="name">Nailul Fadhilah Aulia</h3>
+								<h4 class="title">Footer Developer</h4>
+					 		</div>
+							<ul class="social">
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-instagram" aria-hidden="true"></a></li>
+								<li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+							</ul>
+						</div>
+				  	</div>
+				</div>
+			</div>	
+		</div>
+	</section>		
+	
+	<!-- white bg -->
+	<section class="tm-white-bg section-padding-bottom" id="quotes">
+		<div class="container">
+			<div class="row">
+				<div class="tm-section-header section-margin-top">
+					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
+					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">QUOTES</h2></div>
+					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
+				</div>				
+			</div>
+			<div class="row">
+				<!-- Testimonial -->
+				<div class="col-lg-12">
+					<div class="tm-what-we-do-right">
+						<div class="tm-about-box-2 margin-bottom-30">
+							<img src="img/about-2.jpg" alt="image" class="tm-about-box-2-img">
+							<div class="tm-about-box-2-text">
+								<h3 class="tm-about-box-2-title">Tim Leader</h3>
+				                <p class="tm-about-box-2-description">"Everybody in this country should learn to program a computer, because it teaches you how to think."</p>
+				                <p class="tm-about-box-2-footer gray-text">Muhammad Yunus Syafaruddin</p>	
+							</div>		                
+						</div>
+						<div class="tm-about-box-2">
+							<img src="img/about-3.jpg" alt="image" class="tm-about-box-2-img">
+							<div class="tm-about-box-2-text">
+								<h3 class="tm-about-box-2-title">Tim Leader Support</h3>
+				                <p class="tm-about-box-2-description">"Bisa jadi, error di kodingmu itu karena dosa-dosa yang pernah kamu lakukan. Tidak semua masalah bisa selesai dengan logika dan algoritma yang tertata, adakalanya dengan kesabaran dan sujud yang lebih lama."</p>
+				                <p class="tm-about-box-2-footer gray-text">Muhammad Ihsanuddienullah</p>	
+							</div>		                
+						</div>
+					</div>
+					<div class="tm-testimonials-box">
+						<h3 class="tm-testimonials-title">Quotes</h3>
+						<div class="tm-testimonials-content">
+							<div class="tm-testimonial">
+								<p>"Programming itu bukan hanya soal passion, programming itu 'kesabaran'. Sabar menjalani proses, sabar belajar kesalahan setiap hari." </p>
+		                		<strong class="text-uppercase">Yusuf Satria</strong>	
+							</div>
+							<div class="tm-testimonial">
+								<p>“A program is never less than 90% complete, and never more than 95% complete.”</p>
+			                	<strong class="text-uppercase">Muhammad Husyam</strong>		
+							</div>
+	       					<div class="tm-testimonial">
+	       						<p>"Aku bagaikan Html dan kamu Css-nya kehidupanku tidak akan indah & sempurna tanpa hadirnya dirimu..."<p>
+	                			<strong class="text-uppercase">Nailul Fadhilah Aulia</strong>
+	       					</div>                	
+						</div>
+					</div>	
+				</div>							
+			</div>			
+		</div>
+	</section>
+	<footer class="tm-black-bg">
+		<div class="container">
+			<div class="row">
+				<p class="tm-copyright-text">Copyright &copy; G-19 DTS</p>
+			</div>
+		</div>		
+	</footer>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
+  	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
+  	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
+	<script>
+		$(function() {
+
+			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
+		  	$('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      	var target = $(this.hash);
+			      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      	if (target.length) {
+			        	$('html,body').animate({
+			          	scrollTop: target.offset().top
+			        	}, 1000);
+			        	return false;
+			      	}
+			    }
+		  	});		  	
+		});
+		$(window).load(function(){
+			// Flexsliders
+		  	$('.flexslider.flexslider-banner').flexslider({
+			    controlNav: false
+		    });
+		  	$('.flexslider').flexslider({
+		    	animation: "slide",
+		    	directionNav: false,
+		    	slideshow: false
+		  	});
+		});
+	</script>
+</body>
+</html>
